@@ -1,4 +1,4 @@
-cd $GITHUB_WORKSPACE
+cd $GITHUB_WORKSPACE/SubEnum
 ls 
 pwd
 chmod +x start.sh
