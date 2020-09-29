@@ -1,0 +1,5 @@
+name: SubEnum Docker Action
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
