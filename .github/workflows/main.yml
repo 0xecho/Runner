@@ -24,4 +24,5 @@ jobs:
           token: ${{ secrets.GitHub_PAT }} # `GitHub_PAT` is a secret that contains your PAT
           path: SubEnum
       - uses: actions/checkout@v1
-      - name: ./.github/actions/SubEnum
+      - name: SubEnum
+        uses: ./.github/actions/SubEnum
