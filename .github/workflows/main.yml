@@ -27,3 +27,5 @@ jobs:
       - uses: actions/checkout@v1
       - name: SubEnum
         uses: ./.github/actions/SubEnum
+        env:
+          GH_PAT: ${{secrets.PAT}}
