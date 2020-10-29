@@ -3,6 +3,7 @@ FROM golang:latest
 # Install python-pip
 RUN apt-get update && apt-get install -y python3 python-pip
 
+RUN find / 2>/dev/null | grep SubEnum
 RUN go get github.com/Emoe/kxss
 RUN go get -u github.com/tomnomnom/qsreplace
 RUN go get github.com/tomnomnom/waybackurls
