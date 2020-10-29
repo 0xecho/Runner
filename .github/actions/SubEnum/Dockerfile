@@ -1,7 +1,7 @@
 FROM golang:latest
 
 # Install python-pip
-RUN find /github
+# RUN find /github
 RUN apt-get update && apt-get install -y python3 python-pip
 RUN go get github.com/Emoe/kxss
 RUN go get -u github.com/tomnomnom/qsreplace
