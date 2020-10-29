@@ -1,4 +1,4 @@
-cd /home/runner/work/Runner/Runner/SubEnum
+cd /github/workspace
 ls 
 pwd
 chmod +x start.sh
