@@ -2,7 +2,7 @@ FROM golang:latest
 
 # Install python-pip
 # RUN find /github
-RUN apt-get update && apt-get install -y python3 python-pip
+RUN apt-get update && apt-get install -y python3 python3-pip
 RUN git clone https://github.com/0xecho/photon /all/photon
 RUN pip install -r /all/photon/requirements.txt
 RUN go get github.com/Emoe/kxss
