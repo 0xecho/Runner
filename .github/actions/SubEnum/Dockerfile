@@ -5,6 +5,7 @@ FROM golang:latest
 RUN apt-get update && apt-get install -y python3 python3-pip
 RUN git clone https://github.com/0xecho/photon /all/photon
 RUN pip3 install -r /all/photon/requirements.txt
+RUN git clone https://github.com/0xecho/Arjun /all/Arjun
 RUN go get github.com/Emoe/kxss
 RUN go get -u github.com/tomnomnom/qsreplace
 RUN go get github.com/tomnomnom/waybackurls
